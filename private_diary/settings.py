@@ -122,7 +122,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #ロギングの設定
 LOGGING = {
     'version':1, #固定
-    'disable_existing_logger':False,
+    'disable_existing_loggers':False,
 
     #ロガーの設定
     'loggers':{
